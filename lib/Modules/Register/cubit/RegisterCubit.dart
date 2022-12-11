@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:untitled/Dio/DioHelper.dart';
+import 'package:untitled/shared/Network/local/DioHelper.dart';
 import 'package:untitled/Models/Login/userModel.dart';
 import 'package:untitled/Modules/Register/cubit/RegisterStates.dart';
 
-import '../../../constant/constants.dart';
+import '../../../shared/constant/constants.dart';
 
 class registerCubit extends Cubit<RegisterStates> {
   registerCubit() :super(initialRegister());

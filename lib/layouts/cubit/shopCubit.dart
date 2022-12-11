@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:untitled/Dio/DioHelper.dart';
+import 'package:untitled/shared/Network/local/DioHelper.dart';
 import 'package:untitled/Models/Login/userModel.dart';
 import 'package:untitled/Models/categories/categoriesModel.dart';
 import 'package:untitled/Models/favModel/favModel.dart';
@@ -12,7 +12,7 @@ import 'package:untitled/Modules/categoriesScreen/categoriesScreen.dart';
 import 'package:untitled/Modules/favouriteScreen/favouriteScreen.dart';
 import 'package:untitled/Modules/homeScreen/homeScreen.dart';
 import 'package:untitled/Modules/settingsScreen/settingsScreen.dart';
-import 'package:untitled/constant/constants.dart';
+import 'package:untitled/shared/constant/constants.dart';
 import 'package:untitled/layouts/cubit/shopstate.dart';
 
 class shopCubit extends Cubit<shopStates>

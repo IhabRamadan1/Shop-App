@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled/Modules/Login/cubit/AppCubit.dart';
-import 'package:untitled/Dio/DioHelper.dart';
+import 'package:untitled/shared/Network/local/DioHelper.dart';
 import 'package:untitled/Modules/Login/LoginScreen.dart';
-import 'package:untitled/Network/Remote/sharedPref.dart';
-import 'package:untitled/constant/constants.dart';
+import 'package:untitled/shared/Network/Remote/sharedPref.dart';
+import 'package:untitled/shared/constant/constants.dart';
 import 'package:untitled/layouts/cubit/shopCubit.dart';
 import 'package:untitled/layouts/shopScreen.dart';
 import 'package:untitled/layouts/onboarding_screen.dart';
-import 'package:untitled/styles/themes.dart';
+import 'package:untitled/shared/styles/themes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

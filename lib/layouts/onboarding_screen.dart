@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:untitled/Modules/Login/LoginScreen.dart';
-import 'package:untitled/Network/Remote/sharedPref.dart';
+import 'package:untitled/shared/Network/Remote/sharedPref.dart';
 class boardModel
 {
   final String title;

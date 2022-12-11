@@ -1,9 +1,9 @@
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:untitled/Dio/DioHelper.dart';
+import 'package:untitled/shared/Network/local/DioHelper.dart';
 import 'package:untitled/Models/SearchModel/SearchModel.dart';
 import 'package:untitled/Modules/serachScreen/cubit/searchState.dart';
-import 'package:untitled/constant/constants.dart';
+import 'package:untitled/shared/constant/constants.dart';
 
 
 class SearchCubit extends Cubit<serachState>

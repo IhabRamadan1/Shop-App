@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled/Models/Login/userModel.dart';
 import 'package:untitled/Modules/Login/cubit/AppStates.dart';
 
-import '../../../Dio/DioHelper.dart';
-import '../../../constant/constants.dart';
+import '../../../shared/Network/local/DioHelper.dart';
+import '../../../shared/constant/constants.dart';
 
 class AppCubit extends Cubit<AppStates>
 {

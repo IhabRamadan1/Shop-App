@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled/Modules/Login/LoginScreen.dart';
 import 'package:untitled/Modules/serachScreen/serachScreen.dart';
-import 'package:untitled/Network/Remote/sharedPref.dart';
+import 'package:untitled/shared/Network/Remote/sharedPref.dart';
 import 'package:untitled/layouts/cubit/shopCubit.dart';
 import 'package:untitled/layouts/cubit/shopstate.dart';
 

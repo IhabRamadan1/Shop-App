@@ -4,8 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:untitled/Modules/Register/cubit/RegisterCubit.dart';
 import 'package:untitled/Modules/Register/cubit/RegisterStates.dart';
-import 'package:untitled/Network/Remote/sharedPref.dart';
-import 'package:untitled/constant/constants.dart';
+import 'package:untitled/shared/Network/Remote/sharedPref.dart';
+import 'package:untitled/shared/constant/constants.dart';
 import 'package:untitled/layouts/shopScreen.dart';
 import 'package:conditional_builder/conditional_builder.dart';
 
